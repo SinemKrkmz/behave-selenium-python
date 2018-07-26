@@ -1,0 +1,78 @@
+---
+- name: ' got web site "p1"'
+  uid: f98a6837-d058-4d60-ad3b-0003105e7c66
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: get page title
+  uid: 0af90f42-7b5e-49e6-99ea-ceeeefc20663
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'title is shown '
+  uid: c31ba2d0-68e2-4134-ac6a-3bcc3fe98dfe
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I click '
+  uid: 8b421ca0-352a-4fa7-a78b-9ed2ff1ecae2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click link Giriş Yap
+  uid: 5cc7ce83-7e37-4799-b78f-9ba3a5274beb
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: " I enter  email"
+  uid: 800939d8-e8c2-4a85-804c-25276e993adc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I enter valid password
+  uid: e0f81078-6548-4274-9dba-292a4cbd37b1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click button Üye Girişi
+  uid: ecffd535-c134-464a-8f2b-2ed7fe587a55
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I enter search text "Samsung"
+  uid: fba7959b-59ce-4645-92d3-37e492dac156
+  parameters:
+  - name: Samsung
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click button Search
+  uid: be6eee7a-827f-44aa-b50e-d90f43cbd4b4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: ' "p1" search is shown'
+  uid: 835a2536-9bdf-48db-aece-150c9212b937
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click page button "p1"
+  uid: d27c5bb5-9714-4b29-9ae2-ae0254d3d712
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Second page is shown
+  uid: 2edbedcd-9091-4dba-82b8-b27c39f33cec
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: '   Add "third" product to favorites'
+  uid: 30ecddfb-a433-440f-af06-ff129cce5a99
+  parameters:
+  - name: third
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I click link favorites
+  uid: 1ce87408-ecaa-4570-a554-643f039f1355
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: " shown favorites product"
+  uid: bdd9bace-3438-4ba2-b909-b59654061c83
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: delete favorites product
+  uid: 6eeb2e40-cf9f-4024-9ab6-48a5ba74557a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: product deleted
+  uid: 129f975d-4865-4a07-b2e1-945b39d32afa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
