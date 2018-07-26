@@ -1,7 +1,6 @@
 Feature: N11_Functional
 
 
-
   Scenario: TestCases
     Given got web site "https://www.n11.com"
     When get page title

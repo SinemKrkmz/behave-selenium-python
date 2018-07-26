@@ -62,7 +62,7 @@ class Actionwords:
 
     def add_third_product_to_favorites(self, third="3"):
         SearchPage.favori_product_name =self.browser.find_by_element("//*[@id=\"view\"]/ul/li["+third+"]/div/div/a/h3").text
-        self.browser.find_by_element("//*[@id='view']/ul/li["+third+"]/div/div[2]/span[2]").click()
+        self.browser.find_script("document.getElementsByClassName('columnContent')[3].getElementsByClassName('proDetail')[0].getElementsByClassName('followBtn')[0].click();")
 
 
     def i_click_link_favorites(self):
